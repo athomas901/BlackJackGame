@@ -152,4 +152,17 @@ let firstCard = 10
 let secondCard = 7
 let sum = firstCard + secondCard
 
-//
+function startGame() {
+    
+if(sum < 20)  {
+    console.log("Do you want to draw another card?")
+} else if (sum === 21) {
+    console.log(BlackJack)
+} else if (sum > 21) {
+    console.log ("You're out of the game")
+}else {
+    message ="You're out of the game"
+    itsAlive = false
+}
+
+}
